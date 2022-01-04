@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button, Card, Accordion } from 'react-bootstrap';
 
 function ConnectWs(topic, group, setMessages, connect) {
-    var server = 'ws://192.168.1.96:9999/';
+    var server = 'ws://localhost:9999/';
     var ws = new WebSocket(server + '?topic=' + topic + '&consumerGroup=' + group);
     setMessages([]);
     if (connect === true) {
