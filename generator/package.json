@@ -2,7 +2,7 @@
   "name": "json_generator",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:9998",
+  "proxy": "http://192.168.1.96:9998",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
