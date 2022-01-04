@@ -1,5 +1,5 @@
 # JSON-Message-Generator
-A web application to generate Random JSON Objects to be sent as messages to back-end for processing
+A React web application to generate Random JSON Objects to be sent as messages to back-end for processing
 
 *Main use to produce and consume data to and from Apache Kafka® topics
 
